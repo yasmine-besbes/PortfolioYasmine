@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Yasmine Besbes</title>
+    <link rel="icon" href="data:,">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<button class="mobile-toggle" onclick="toggleMenu()">☰ Menu</button>
+
+<div class="layout">
+    <!-- SIDEBAR NAVIGATION -->
+    <aside class="sidebar" id="sidebar">
+       <div class="brand">
+            <div class="logo-circle">
+                <span>YB</span>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#about" class="nav-link active">01. Profil</a></li>
+            <li><a href="#education" class="nav-link">02. Formation</a></li>
+            <li><a href="#experience" class="nav-link">03. Expériences</a></li>
+            <li><a href="#skills" class="nav-link">04. Compétences</a></li>
+            <li><a href="#projects" class="nav-link">05. Projets</a></li>
+            <li><a href="#certs" class="nav-link">06. Certifications</a></li>
+            <li><a href="#lang" class="nav-link">07. Langues</a></li>
+        </ul>
+
+        <div class="sidebar-socials">
+            <a href="https://www.linkedin.com/in/yasmine-besbes-61398b332/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/yasmine-besbes" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+        </div>
+
+       
+    </aside>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- HERO -->
+        <section id="about" class="hero section-scroll">
+            <div class="hero-main-content">
+                <div class="hero-text-content">
+                    <div class="hero-intro">Bonjour, je suis</div>
+                    <h1>Yasmine BESBES.</h1>
+                    <h3><span id="typewriter"></span></h3>
+                    <p>
+                        Étudiante en 1ère année cycle d’ingénieur en Génie informatique à l’ENICarthage et diplômée d’une licence en Génie Logiciel. 
+                        Je suis une personne créative, déterminée et passionnée par le développement de solutions innovantes.
+                    </p>
+                    <div class="contact-grid">
+                        <a href="mailto:besbesyasmine03@gmail.com" class="contact-item"><i class="fa-solid fa-envelope"></i> besbesyasmine03@gmail.com</a>
+                        <a href="tel:+21626181270" class="contact-item"><i class="fa-solid fa-phone"></i> +216 26 181 270</a>
+                        <span class="contact-item"><i class="fa-solid fa-location-dot"></i> Ben Arous, Mégrine</span>
+                    </div>
+                </div>
+                <img src="photoYasmine.jpg" alt="Yasmine BESBES" class="profile-photo">
+                
+        </section>
+
+        <!-- FORMATION -->
+        <section id="education" class="section-scroll">
+            <div class="section-header">
+                <h2>02. Formation</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">École Nationale d’Ingénieurs de Carthage (ENICarthage)</span>
+                    <span class="card-date">Depuis sept. 2025</span>
+                </div>
+                <span class="card-subtitle">Étudiante en 1ere année cycle d’ingénieur en Génie informatique</span>
+                <div class="card-content">
+                    <p>45 Rue des Entrepreneurs, 2035 Charguia II, Tunis-Carthage, Tunisie</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">Institut Supérieur des Technologies de l’Information et de la Communication (ISTIC)</span>
+                    <span class="card-date">Juin 2025</span>
+                </div>
+                <span class="card-subtitle">Licence en Sciences Informatiques : Génie Logiciel et Systèmes d’Information</span>
+                <div class="card-content">
+                    <p>Technopole de Borj Cédria, Route de Soliman, Ben Arous, Tunisie</p>
+                    <span class="badge">Mention Très Bien</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">Baccalauréat en Mathématiques</span>
+                    <span class="card-date">Juin 2022</span>
+                </div>
+                <div class="card-content">
+                    <p>Lycée Taha Hussein Mégrine, Ben Arous, Tunisie</p>
+                    <span class="badge">Mention Bien</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCES -->
+        <section id="experience" class="section-scroll">
+            <div class="section-header">
+                <h2>03. Expériences Professionnelles</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">Stage de projet de fin d’études - Développeur web, mobile et IA</span>
+                    <span class="card-date">25 Janv. 2025 - 10 Mai 2025</span>
+                </div>
+                <span class="card-subtitle">AGRIUP DISTRIBUTION</span>
+                <div class="card-content">
+                    <ul>
+                        <li>Développement d’une application mobile pour le centre de compétences AGRIUP incluant un chatbot IA et son backoffice web.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">Stage de perfectionnement - Développeur Frontend Angular et Backend Spring Boot</span>
+                    <span class="card-date">01 Juil. 2024 - 15 Août 2024</span>
+                </div>
+                <span class="card-subtitle">VALUE DIGITAL SERVICES</span>
+                <div class="card-content">
+                    <ul>
+                        <li>Développement de la gestion des collaborateurs et la gestion des projets du back-office de l’application mobile WeValue pour le projet We Value.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header">
+                    <span class="card-title">Stage d'été - Développeur WEB</span>
+                    <span class="card-date">19 Juin 2023 - 19 Juil. 2023</span>
+                </div>
+                <span class="card-subtitle">REDSTART TUNISIE</span>
+                <div class="card-content">
+                    <ul>
+                        <li>Développement des sites web dynamique en PHP, création de sites responsives avec Bootstrap.</li>
+                        <li>Personnalisation de thèmes WordPress via Elementor, audit et optimisation de sites, et intégration HTML/CSS sur mesure.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- COMPETENCES -->
+        <section id="skills" class="section-scroll">
+    <div class="section-header">
+        <h2>04. Compétences Techniques</h2>
+        <div class="section-line"></div>
+    </div>
+
+    <div class="skills-grid">
+
+        <div class="card">
+            <h4 class="card-title">Développement & Web</h4>
+            <div class="tags">
+                <span class="tag">Java</span>
+                <span class="tag">Python</span>
+                <span class="tag">C</span>
+                <span class="tag">PHP (natif)</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">HTML / CSS</span>
+                <span class="tag">Bootstrap</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h4 class="card-title">Frameworks</h4>
+            <div class="tags">
+                <span class="tag">Spring Boot</span>
+                <span class="tag">Laravel</span>
+                <span class="tag">Vue.js</span>
+                <span class="tag">React.js</span>
+                <span class="tag">Angular</span>
+                <span class="tag">Flutter</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h4 class="card-title">Data & Sécurité</h4>
+            <div class="tags">
+                <span class="tag">SQL / MySQL</span>
+                <span class="tag">PostgreSQL</span>
+                <span class="tag">Keycloak</span>
+                <span class="tag">JWT</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h4 class="card-title">Outils & Méthodes</h4>
+            <div class="tags">
+                <span class="tag">Git / GitHub</span>
+                <span class="tag">Scrum</span>
+                <span class="tag">UML</span>
+                <span class="tag">WAMP</span>
+                <span class="tag">VS Code</span>
+                <span class="tag">IntelliJ</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h4 class="card-title">Soft Skills</h4>
+            <div class="tags">
+                <span class="tag">Travail en équipe</span>
+                <span class="tag">Communication</span>
+                <span class="tag">Autonomie</span>
+                <span class="tag">Rédaction LaTeX</span>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+
+        <!-- PROJETS -->
+        <section id="projects" class="section-scroll">
+            <div class="section-header">
+                <h2>05. Projets Personnels</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="projects-wrapper">
+                <div class="project-card">
+                    <div class="folder-icon"></div>
+                    <h3>Gestion de bibliothèque</h3>
+                    <p>Développement d’une application web de gestion de bibliothèque : réalisée avec Angular (front-end), PHP (back-end) et sécurisée avec JWT.</p>
+                    <div class="project-tech-list">
+                        <span>Angular</span>
+                        <span>PHP</span>
+                        <span>JWT</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="folder-icon"></div>
+                    <h3>Chatbot touristique</h3>
+                    <p>Création d’un chatbot touristique multilingue : conçu pour répondre aux questions des touristes (hébergement, restaurants, activités, etc.) pour la destination Grèce.</p>
+                    <div class="project-tech-list">
+                        <span>IA</span>
+                        <span>NLP</span>
+                        <span>Tourisme</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="folder-icon"></div>
+                    <h3>App Films & Séries</h3>
+                    <p>Développement d’une application web/mobile de films et séries : incluant un système de recommandation basé sur les préférences de l’utilisateur connecté.</p>
+                    <div class="project-tech-list">
+                        <span>Mobile</span>
+                        <span>Recommandation</span>
+                        <span>Web</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS & LANGUES -->
+        <section id="certs" class="section-scroll">
+            <div class="section-header">
+                <h2>06. Certifications & Langues</h2>
+                <div class="section-line"></div>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Certifs -->
+                <div class="card">
+                    <h3 class="card-title" style="margin-bottom:1.5rem; color:var(--accent-main);">Certifications</h3>
+                    <div class="simple-grid">
+                         <div class="list-row">
+                            <span>Cisco Certified Network Associate</span>
+                            <strong>15 Jan 2026</strong>
+                        </div>
+                        <div class="list-row">
+                            <span>Big Data Engineer certificate</span>
+                            <strong>19 Jan 2025</strong>
+                        </div>
+                        <div class="list-row">
+                            <span>Artificial Intelligence Fundamentals (IBM)</span>
+                            <strong>14 Août 2024</strong>
+                        </div>
+                        <div class="list-row">
+                            <span>Développement Web – GoMyCode</span>
+                            <strong>25 Août 2023</strong>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Langues -->
+                <div class="card" id="lang">
+                    <h3 class="card-title" style="margin-bottom:1.5rem; color:var(--accent-main);">Langues</h3>
+                    <div class="simple-grid">
+                        <div class="list-row">
+                            <span>Arabe</span>
+                            <strong>Langue Maternelle</strong>
+                        </div>
+                        <div class="list-row">
+                            <span>Français</span>
+                            <strong>Courant</strong>
+                        </div>
+                        <div class="list-row">
+                            <span>Anglais</span>
+                            <strong>Compréhension courante</strong>
+                        </div>
+                        <div class="list-row">
+                            <span>Allemand</span>
+                            <strong>A2-1</strong>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+</div>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>
